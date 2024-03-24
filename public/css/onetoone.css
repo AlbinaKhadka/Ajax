@@ -1,0 +1,26 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    th, td {
+        text-align: left;
+        padding: 8px;
+        border: 1px solid #ddd; /* Light grey border */
+    }
+    th {
+        background-color: #4CAF50; /* Darker shade */
+        color: white;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2; /* Lighter shade for even rows */
+    }
+    tr:hover {
+        background-color: #ddd; /* Hover effect for rows */
+    }
+
